@@ -7,12 +7,15 @@ tags:
   - altair
   - hvplot
   - holoviews
+hv-loader:
+  hv-chart-1: charts/larceny index.html.html
 excerpt: Explanatory analysis of predicted and explanatory variables, including static images produced by Seabon and Matplotlib.
 toc: true
 toc_sticky: true
 ---
 ## Predicted variable: Larceny index
-The Larceny Index for a block group would be equal to **total number of larceny incidents divided by total population in the block group and then times 100,000.**
+The Larceny Index for a block group would be equal to **total number of larceny incidents divided by total population in the block group and then times 100,000.** The following hvplot shows larceny index in each block group.
+<div id="hv-chart-1"></div>
 
 From the histogram of actual larceny index as below, most block groups have larceny index less than 500,000, there are some over 1 million, the maximum even reaches to 6,000,000.
 ![hist-larceny index]({{ site.url }}{{ site.baseurl}}/assets/images/hist-larceny index.png)
