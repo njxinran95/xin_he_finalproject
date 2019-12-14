@@ -24,5 +24,8 @@ In recent years (especially from 2012 to 2017), the number of larceny incidents 
 Secondly, larceny count can be summarized in each block group by years.To do this, we firstly converted the data with datetime parameters. Then we counted the number of incidents in each block group each year. After that, after getting the geometry of the block groups and converted the data to geodataframe, we conducted the visualization shown in the figure below. For example, in 2007, most larceny incidents happened in SOMA (south of Market street) and Union Square areas.
 <div id="hv-chart-2"></div>
 
+## Datashae: larceny count density
+We got totally 480,448 larceny cases from the dataset and we visualized the preliminary view of the density of larceny incidents happened in San Francisco by using datashader package to aggregate the crime points and shade the aggregated pixels.
 
+It is clear to notice that the northeastern part of the city (Chinatown, financial district and Tenderloin neighborhood) seems to have the highest density of larceny incidents in the past.
 ![Datashade_larcenydensity]({{ site.url }}{{ site.baseurl }}/assets/images/Datashade_larcenydensity.png)
