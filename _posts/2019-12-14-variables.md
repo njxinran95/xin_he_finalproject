@@ -8,6 +8,7 @@ tags:
   - hvplot
   - holoviews
 excerpt: Explanatory analysis of predicted and explanatory variables, including static images produced by Seabon and Matplotlib.
+toc: true
 toc_sticky: true
 ---
 ## Predicted variable: Larceny index
