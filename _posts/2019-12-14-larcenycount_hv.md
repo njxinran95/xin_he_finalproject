@@ -28,3 +28,4 @@ Lastly, the measles incidence produced using the Holoviews package:
 
 <div id="hv-chart-1"></div>
 <div id="hv-chart-2"></div>
+![Datashade_larcenydensity]({{ site.url }}{{ site.baseurl }}/assets/images/Datashade_larcenydensity.png)
