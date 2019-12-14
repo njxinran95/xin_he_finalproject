@@ -1,8 +1,18 @@
 ---
 published: false
 ---
-## A New Post
-This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
+---
+title: "Explanatory analysis: Larceny count, San Francisco 2013-May 2018"
+date: 2019-12-14
+published: true
+tags: [dataviz, altair, hvplot, holoviews]
+excerpt: "Embedding interactive charts on static pages using Jekyll."
+hv-loader:
+  hv-chart-1: "charts/larceny count by year.html.html"
+  hv-chart-2: "charts/larceny count by BG by year.html.html"
+toc: true
+toc_sticky: true
+---
 
 ## Altair Example
 
@@ -22,11 +32,3 @@ alt.renderers.enable('notebook')
 Lastly, the measles incidence produced using the Holoviews package:
 
 <div id="hv-chart-1"></div>
-
-## Notes
-
-- See the [raw source code](https://raw.githubusercontent.com/nickhand/static-site-template/master/_posts/2019-04-13-measles-charts.md) of this post for details on how these charts were embedded.
-- See the [week 13 lecture slides](https://github.com/MUSA-620-Fall-2019/week-13/blob/master/lecture-13.ipynb) for the code that produced these plots.
-
-**Important: When embedding charts, you will likely need to adjust the width/height of the charts before embedding them in the page so they fit nicely when embedded.**
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
